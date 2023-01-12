@@ -1,0 +1,19 @@
+{
+    "image": "mcr.microsoft.com/vscode/devcontainers/base",
+    "settings": {},
+    "extensions": [
+        "dtsvet.vscode-wasm"
+    ],
+    "features": {
+        "ghcr.io/devcontainers/features/go:1": {
+            "version": "latest"
+        },
+        "ghcr.io/rchaganti/vsc-devcontainer-features/tinygo:latest": {
+            "version": "0.26.0"
+        },
+        "ghcr.io/rchaganti/vsc-devcontainer-features/wabt:latest": {
+            "version": "1.0.32"
+        }
+    },
+    "remoteUser": "vscode"
+}
