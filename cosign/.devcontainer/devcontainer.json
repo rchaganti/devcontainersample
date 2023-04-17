@@ -3,10 +3,14 @@
 	"containerEnv": {
 		"TZ": "Asia/Calcutta"
 	},
-	"settings": {},
-	"extensions": [
-		"golang.go"
-	],
+	"customizations": {
+		"vscode": {		
+			"settings": {},
+			"extensions": [
+				"golang.go"
+			]
+		}
+	},
 	"features": {
 		"ghcr.io/devcontainers/features/go:1": {
             "version": "latest"

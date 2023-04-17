@@ -1,6 +1,10 @@
 {
 	"image": "mcr.microsoft.com/vscode/devcontainers/base",
-	"settings": {},
+	"customizations": {
+		"vscode": {
+			"settings": {}
+		}
+	},
 	"features": {
 		"ghcr.io/rchaganti/vsc-devcontainer-features/cuelang:latest" : {
 			"version" : "0.4.3"

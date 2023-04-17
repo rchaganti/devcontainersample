@@ -1,9 +1,13 @@
 {
     "image": "mcr.microsoft.com/vscode/devcontainers/base",
-    "settings": {},
-    "extensions": [
-        "dtsvet.vscode-wasm"
-    ],
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "dtsvet.vscode-wasm"
+            ]
+        }
+    },
     "features": {
         "ghcr.io/devcontainers/features/go:1": {
             "version": "latest"

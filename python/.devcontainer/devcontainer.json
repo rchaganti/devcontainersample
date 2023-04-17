@@ -1,9 +1,13 @@
 {
 	"image": "mcr.microsoft.com/vscode/devcontainers/base",
-	"settings": {},
-	"extensions": [
-		"ms-python.python"
-	],
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"ms-python.python"
+			]
+		}
+	},
 	"features": {
 		"python": {
 			"version": "latest"

@@ -1,9 +1,13 @@
 {
 	"image": "mcr.microsoft.com/vscode/devcontainers/base",
-	"settings": {},
-	"extensions": [
-		"rust-lang.rust"
-	],
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"rust-lang.rust"
+			]
+		}
+	},
 	"features": {
 		"rust" : {
 			"version": "latest"

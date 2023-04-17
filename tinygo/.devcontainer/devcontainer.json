@@ -1,7 +1,11 @@
 {
     "image": "mcr.microsoft.com/vscode/devcontainers/base",
-    "settings": {},
-    "extensions": [],
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": []
+        }
+    },
     "features": {
         "ghcr.io/devcontainers/features/go:1": {
             "version": "latest"
